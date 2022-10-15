@@ -4,8 +4,15 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main - main code
+ *@parameters: none
+ *
+ *description: prints a random number and its sign or if it is zero
+ *section header: none
+ *return: none
+ */
 int main(void)
-/* body */
 {
 int n;
 
