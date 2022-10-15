@@ -9,7 +9,7 @@
  *
  *description: prints a random number and its sign or if it is zero
  *section header: none
- *return: none
+ *Return: intiger 0
  */
 int main(void)
 {
