@@ -5,6 +5,7 @@
 
 /* betty style doc for function main goes there */
 int main(void)
+/* body */
 {
 int n;
 
