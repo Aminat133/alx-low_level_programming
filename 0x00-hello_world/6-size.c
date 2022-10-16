@@ -14,7 +14,7 @@ long long int long_long_inttype;
 float floattype;
 
 /* print sizes of data types*/
-printf("Size of a char: %s byte(s)\n", sizeof(chartype));
+printf("Size of a char: %zu byte(s)\n", sizeof(chartype));
 printf("Size of an int: %i byte(s)\n", sizeof(inttype));
 printf("Size of a long int: %i byte(s)\n", sizeof(long_inttype));
 printf("Size of a long long int: %i byte(s)\n", sizeof(long_long_inttype));
