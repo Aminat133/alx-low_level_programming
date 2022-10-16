@@ -10,7 +10,7 @@ int main(void)
 int inttype;
 char chartype;
 long int long_inttype;
-long long ing long_long_inttype;
+long long int long_long_inttype;
 float floattype;
 
 /* print sizes of data types*/
