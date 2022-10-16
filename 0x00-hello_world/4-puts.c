@@ -6,8 +6,8 @@
  * Return: Always 0 (Success)
  */
 
-int puts(void)
+int main(void)
 {
-strlen("\"Programming is like building a multilingual puzzle\n"));
+puts("\"Programming is like building a multilingual puzzle\n");
 return (0);
 }
