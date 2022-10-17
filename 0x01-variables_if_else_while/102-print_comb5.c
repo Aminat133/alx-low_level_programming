@@ -12,7 +12,7 @@ int digit1, digit2, digit3, digit4;
 
 for (digit1 = 0; digit1 < 10; digit1++)
 {
-for (digit2 = 1; digit2 < 10; digit2++)
+for (digit2 = 0; digit2 < 10; digit2++)
 {
 for (digit3 = 0; digit3 < 10; digit3++)
 {
