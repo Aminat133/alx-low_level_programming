@@ -13,7 +13,7 @@ int a = 97;
 while(a < 123)
 {
 int putchar(a);
-a++
+a++;
 }
 
 return (0);
