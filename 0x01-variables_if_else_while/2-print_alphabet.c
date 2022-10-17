@@ -9,10 +9,11 @@
 int main(void)
 {
 
-int a = 97;
+char a = 97;
 while(a < 123)
 {
-int putchar(a);
+putchar(a);
+putchar('\n');
 a++;
 }
 
