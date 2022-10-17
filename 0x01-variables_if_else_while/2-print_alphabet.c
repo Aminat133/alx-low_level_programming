@@ -10,12 +10,12 @@ int main(void)
 {
 
 char a = 97;
-while(a < 123)
+while (a < 123)
 {
 putchar(a);
 a++;
 }
 putchar('\n');
-  
+
 return (0);
 }
