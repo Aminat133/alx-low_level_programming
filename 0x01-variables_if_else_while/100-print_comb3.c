@@ -21,7 +21,7 @@ continue;
 putchar((digit1 % 10) + '0');
 putchar((digit2 % 10) + '0');
 
-if (digit1 == 9 && digit2 == 9)
+if (digit1 == 8 && digit2 == 9)
 continue;
 
 putchar(',');
