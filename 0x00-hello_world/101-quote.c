@@ -8,6 +8,6 @@
 int main(void)
 {
 char a = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-fprintf(stderr,"%zu\n", a);
+fprintf(stderr,"%s\n", a);
 return (1);
 }
