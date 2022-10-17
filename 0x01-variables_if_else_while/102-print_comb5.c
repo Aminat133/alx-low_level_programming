@@ -19,7 +19,7 @@ for (digit3 = 0; digit3 < 10; digit3++)
 for (digit4 = 0; digit4 < 10; digit4++)
 {
 
-if (digit1 == digit3 && digit2 == digit4)
+if (digit1 >= digit3 && digit2 >= digit4)
 continue;
 
 putchar((digit1 % 10) + '0');
