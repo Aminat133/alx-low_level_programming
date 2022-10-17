@@ -15,7 +15,7 @@ while (a < 10)
 putchar(a + '0');
 a++;
 }
-char b = 97;
+char b = 'a';
 while (b < 103)
 {
 putchar(b);
