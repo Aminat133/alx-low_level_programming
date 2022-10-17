@@ -10,11 +10,14 @@ int main(void)
 {
 
 char a = 97;
-while (a < 123 && a != 101 && a != 113)
-    {
-      putchar(a);
-      a++;
-    }
+while (a < 123)
+{
+if (a != 101 && a != 113)
+{
+putchar(a);
+}
+a++;
+}
   putchar('\n');
 
   return (0);
