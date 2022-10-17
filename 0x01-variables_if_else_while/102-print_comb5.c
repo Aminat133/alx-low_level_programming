@@ -26,8 +26,8 @@ putchar((digit1 % 10) + '0');
 putchar((digit2 % 10) + '0');
 
 putchar(' ');
-putchar((digit1 % 10) + '0');
-putchar((digit2 % 10) + '0');
+putchar((digit3 % 10) + '0');
+putchar((digit4 % 10) + '0');
 
 if (digit1 == 9 && digit2 == 8 && digit3 == 9 && digit4 == 9)
 continue;
