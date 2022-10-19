@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  *  * main - Check description
@@ -11,7 +12,7 @@ char word[8] = "_putchar";
 int i;
 
 for (i = 0; i < 8; i++)
-putchar(word[i]);
-putchar('\n');
+_putchar(word[i]);
+_putchar('\n');
 return (0);
 }
