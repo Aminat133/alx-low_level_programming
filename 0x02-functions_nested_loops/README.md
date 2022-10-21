@@ -1,7 +1,7 @@
 
 
     0. _putchar
-        0-holberton.c: C program that prints Holberton, followed by a new line. Returns 0.
+        0-holberton.c: C program that prints _putchar, followed by a new line. Returns 0.
 
     1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
         1-alphabet.c: C function that prints the alphabet in lowercase, followed by a new line.
