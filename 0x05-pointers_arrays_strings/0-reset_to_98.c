@@ -6,7 +6,7 @@
 
 /**
  *  *  *void reset_to_98- resets_to_98
- *  desc: resets value to 98
+ *  desc: resets value to 98 this is a description na
  *   *   * @n : The pointer variable
  *
  *    *    *
