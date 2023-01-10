@@ -3,12 +3,8 @@
 #include <unistd.h>
 
 /**
- *  *  *void reset_to_98- resets_to_98
+ *  *  *void reset_to_98 - resets_to_98
  *   *   * @n : The pointer variable
- *
- *    *    *
- *
- *     *     * Return: On success 0.
  *
  *
  */
