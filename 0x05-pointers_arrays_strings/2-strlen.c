@@ -13,4 +13,4 @@ length = 0;
 while (*s++)
 length++;
 return (length);
-{
+}
