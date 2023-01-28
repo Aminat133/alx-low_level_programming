@@ -11,7 +11,7 @@
 void print_rev(char *s)
 {
 int index = 0, length;
-while(s++)
+while(s[length++])
 index++;
 
 for(length = index - 1; length >= 0; length--)
