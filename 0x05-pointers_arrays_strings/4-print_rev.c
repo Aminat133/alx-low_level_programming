@@ -10,12 +10,12 @@
 
 void print_rev(char *s)
 {
-int index = 0, length;
-while(s[length++])
-index++;
+int len = 0, index;
+while(s[index++])
+len++;
 
-for(length = index - 1; length >= 0; length--)
-_putchar(s[length]);
+for(index = len - 1; index >= 0; index--)
+_putchar(s[index]);
 
 _putchar('\n');
 }
