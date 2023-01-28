@@ -3,7 +3,8 @@
 /**
 *_puts - prnts a string follwed by a line
 *
-*@*str: string to be printed
+*@str: string to be printed
+*
 * retun: 0
 */
 
