@@ -9,5 +9,8 @@
 
 void _puts(char *str)
 {
-print("%z/n", *str);
+ while (*str)
+   _putchar(*str++);
+   
+ _putchar('/n');
 }
