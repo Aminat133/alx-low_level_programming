@@ -12,12 +12,12 @@ int len = 0, index;
 char *m;
 char *b;
 
-while (*s++)
+while (s++)
 len++;
 
 for (index = len - 1; index >= 0; index--)
-m = --*s
+m = --s
 
 for (index = len - 1; index >= 0; index--)
-m = *s++
+m = s++
 }
