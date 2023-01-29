@@ -11,8 +11,8 @@
 */
 
 void print_array(int *a, int n)
-}
-int len = 0, index = 0;
+{
+int index = 0;
 while (a[index++])
 len++
 
