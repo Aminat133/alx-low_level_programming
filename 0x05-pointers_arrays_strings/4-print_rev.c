@@ -15,7 +15,7 @@ int len = 0, index;
 while (*s++)
 len++;
 
-for (index = len + 3; index >= 0; index--)
+for (index = len; index >= 0; index--)
 _putchar(*s--);
 
 _putchar('\n');
