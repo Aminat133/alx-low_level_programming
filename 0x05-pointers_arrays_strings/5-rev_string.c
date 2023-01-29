@@ -16,8 +16,8 @@ while (s++)
 len++;
 
 for (index = len - 1; index >= 0; index--)
-m = --s
+m++ = --s;
 
 for (index = len - 1; index >= 0; index--)
-m = s++
+s = m++;
 }
