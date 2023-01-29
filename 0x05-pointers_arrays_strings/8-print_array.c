@@ -13,8 +13,6 @@
 void print_array(int *a, int n)
 {
 int index = 0;
-while (a[index++])
-len++
 
 for (index = 0, index < n, index++)
 {
@@ -26,4 +24,4 @@ continue;
 printf(",");
 }
 printf("\n");
-{
+}
