@@ -6,7 +6,7 @@
 *@str: string to be printed
 */
 
-void puts_half(char *str);
+void puts_half(char *str)
 {
 int len = 0, index = 0;
 while (str[index++])
