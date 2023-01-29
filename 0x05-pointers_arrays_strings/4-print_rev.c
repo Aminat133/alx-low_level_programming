@@ -14,7 +14,7 @@ int len = 0, index;
 
 while (*s++)
 len++;
-*s = *(s - 1)
+*s = *(s - 1);
 for (index = len - 1; index >= 0; index--)
 _putchar(*s--);
 
