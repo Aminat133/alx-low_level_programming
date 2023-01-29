@@ -17,7 +17,7 @@ while (*s++)
 len++;
 
 for (index = len - 1; index >= 0; index--)
-m = (s + index)
+m = (s + index);
 _putchar(*m);
 
 _putchar('\n');
