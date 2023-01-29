@@ -16,7 +16,8 @@ while (*s++)
 len++;
 
 for (index = len - 1; index >= 0; index--)
-_putchar(*s--);
+*s - 1
+  _putchar(*s--);
 
 _putchar('\n');
 }
