@@ -12,7 +12,7 @@ int len = 0, index = 0;
 while (str[index++])
 len++;
 
-for (index = len - 1 +(len/2); index = len - 1; index++)
+for (index = len/2 ; index = len - 1; index++)
 _putchar(str[index]);
 
 _putchar('\n');
