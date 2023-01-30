@@ -23,5 +23,5 @@ break;
 
 } while (*s++);
 
-return (num * sign);
+return (num *sign);
 }
