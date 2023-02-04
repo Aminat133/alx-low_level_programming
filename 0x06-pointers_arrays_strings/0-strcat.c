@@ -2,8 +2,8 @@
 
 /**
 *char *_strcat - appends the src string to the dest string,
-*overwriting the terminating null byte (\0) at the end of dest
-*and then adds a terminating null byte
+*overwriting the terminating null byte (\0) at the end of
+*dest and then adds a terminating null byte
 *
 * @dest: first string.
 * @src: second string.
@@ -21,10 +21,8 @@ dest_len++;
 while (src[i++])
 src_len++;
 
-for( i = 0; i <= src_len ; i++)
+for ( i = 0; i <= src_len ; i++)
 dest[dest_len + i] = src[i];
-
-
 
 return (dest);
 }
