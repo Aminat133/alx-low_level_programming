@@ -17,8 +17,8 @@ int dest_len =0, i = 0, src_len = 0;
 
 while (dest[i++])
 dest_len++;
-  
- while (src[i++])
+
+while (src[i++])
 src_len++;
 
 for( i = 0; i <= src_len ; i++)
