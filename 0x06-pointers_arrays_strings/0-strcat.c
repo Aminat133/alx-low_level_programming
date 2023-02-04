@@ -18,10 +18,7 @@ int dest_len =0, i;
 while (dest++)
 dest_len++;
 
-while (src++)
-src_len++;
-
-for( i = 0; i <= src_len; i++)
+for( i = 0; src[i]; i++)
 dest[dest_len + i] = src[i];
 
 dest[dest_len + i] = '\0' ;
