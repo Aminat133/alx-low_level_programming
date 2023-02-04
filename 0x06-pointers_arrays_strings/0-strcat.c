@@ -24,7 +24,7 @@ src_len++;
 for( i = 0; i <= src_len ; i++)
 dest[dest_len + i] = src[i];
 
-dest[dest_len + i] = '\0' ;
+
 
 return (dest);
 }
