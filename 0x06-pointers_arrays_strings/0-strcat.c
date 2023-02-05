@@ -11,7 +11,7 @@
  * @src: second string.
  * 
  * return: A pointer to the destination
- * string @dest.
+ *           string @dest.
  */
 
 char *_strcat(char *dest, char *src)
