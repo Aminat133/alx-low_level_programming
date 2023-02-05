@@ -25,7 +25,7 @@ dest_len++;
 while (src[i++])
 src_len++;
 
-for ( i = 0;i <= src_len ;i++)
+for (i = 0; i <= src_len; i++)
 dest[dest_len + i] = src[i];
 
 return (dest);
