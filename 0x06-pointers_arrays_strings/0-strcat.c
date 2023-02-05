@@ -3,8 +3,8 @@
 /**
 *reset_to_98 - resets_to_98.
 *
-*@dest : The pointer variable.
-*@dest : The pointer variable.
+*@dest: The pointer variable.
+*@src: The pointer variable.
 */
 
 char *_strcat(char *dest, char *src)
