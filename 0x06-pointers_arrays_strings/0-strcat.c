@@ -5,12 +5,13 @@
 *to the dest string, overwriting the
 *terminating null byte (\0) at the end 
 *of dest and then adds a terminating 
-*null byte
+*null byte.
 *
 * @dest: first string.
 * @src: second string.
 * 
-* return: A pointer to the destination string @dest.
+* return: A pointer to the destination
+* string @dest.
 */
 
 char *_strcat(char *dest, char *src)
