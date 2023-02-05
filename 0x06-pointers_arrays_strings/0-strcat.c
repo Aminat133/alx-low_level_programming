@@ -7,11 +7,11 @@
  *           at the end of dest and then adds
  *           a terminating null byte.
  *
- *@dest: first string.
- *@src: second string.
+ * @dest: first string.
+ * @src: second string.
  * 
- *return: A pointer to the destination
- *string @dest.
+ * return: A pointer to the destination
+ * string @dest.
  */
 
 char *_strcat(char *dest, char *src)
