@@ -1,17 +1,10 @@
 #include "main.h"
 
 /**
-*char *_strcat - appends the src string
-*to the dest string, overwriting the
-*terminating null byte (\0) at the end 
-*of dest and then adds a terminating 
-*null byte.
+*reset_to_98 - resets_to_98.
 *
-* @dest: first string.
-* @src: second string.
-* 
-* return: A pointer to the destination
-* string @dest.
+*@dest : The pointer variable.
+*@dest : The pointer variable.
 */
 
 char *_strcat(char *dest, char *src)
