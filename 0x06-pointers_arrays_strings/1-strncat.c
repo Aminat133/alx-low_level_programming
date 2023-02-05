@@ -27,6 +27,7 @@ for (index = 0; index <= n; index++)
 dest[dest_len++] = src[index];
 
 if (src_len < n)
-dest[dest_len++] = '\0';   
+dest[dest_len] = '\0';
+
 return (dest);
 }
