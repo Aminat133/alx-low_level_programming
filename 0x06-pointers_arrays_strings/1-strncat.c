@@ -19,11 +19,14 @@ int index = 0, dest_len = 0;
 
 while (dest[index++])
 dest_len++;
+  
+while (src[index++])
+src_len++;
 
 for (index = 0; index <= n; index++)
 dest[dest_len++] = src[index];
 
-if (src < n)
+if (src_len < n)
 dest[dest_len++] = '\0';   
 return (dest);
 }
