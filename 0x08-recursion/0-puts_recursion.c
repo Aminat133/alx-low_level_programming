@@ -1,16 +1,8 @@
 #include "main.h"
 /**
- * @_strcat - appends the src string
- *           to the dest string, overwriting
- *           the terminating null byte (\0)
- *           at the end of dest and then adds
- *           a terminating null byte.
- *
- * @dest: first string.
- * @src: second string.
- *
- * return: A pointer to the destination
- *           string @dest.
+ * _puts_recursion - a function that prints a string, followed by a new line.
+ * @s: An input string to printing
+ * Return: Nothing
  */
 void _puts_recursion(char *s)
 {
