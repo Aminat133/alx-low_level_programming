@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strcat - appends the src string
  *           to the dest string, overwriting
@@ -13,7 +12,6 @@
  * return: A pointer to the destination
  *           string @dest.
  */
-
 void _puts_recursion(char *s)
 {
 	if (*s)
