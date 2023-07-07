@@ -1,11 +1,39 @@
-0-strcat.c - Write a function that concatenates two strings.
+What is recursion
 
-Prototype: char *_strcat(char *dest, char *src); This function appends the src string to the dest string, overwriting the terminating null byte (\0) at the end of dest, and then adds a terminating null byte Returns a pointer to the resulting string dest
+How to implement recursion
 
-1-strncat.c - Write a function that concatenates two strings.
+In what situations you should implement recursion
 
-Prototype: char *_strncat(char *dest, char *src, int n); The _strncat function is similar to the _strcat function, except that it will use at most n bytes from src; and src does not need to be null-terminated if it contains n or more bytes Return a pointer to the resulting string dest
+In what situations you shouldn’t implement recursion
 
-2-strncpy.c - Write a function that copies a string.
+Allowed editors: vi, vim, emacs
 
-Prototype: char *_strncpy(char *dest, char *src, int n); Your function should work exactly like strncpy
+All your files will be compiled on Ubuntu 14.04 LTS
+
+Your programs and functions will be compiled with gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
+
+All your files should end with a new line
+
+A README.md file, at the root of the folder of the project is mandatory
+
+Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+
+You are not allowed to use global variables
+
+No more than 5 functions per file
+
+You are not allowed to use the standard library. Any use of functions like printf, puts, etc… is forbidden
+
+You are allowed to use _putchar
+
+You don’t have to push _putchar.c, we will use our file. If you do it won’t be taken into account
+
+In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
+
+The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called holberton.h
+
+Don’t forget to push your header file
+
+You are not allowed to use any kind of loops
+
+You are not allowed to use static variables
