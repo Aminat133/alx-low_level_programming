@@ -6,6 +6,6 @@
 
 int main(int argc, char *argv[])
 {
-printf("./%s\n", argv[0]);
+printf("./%s\n", *argv);
 exit(EXIT_SUCCESS);
 }
