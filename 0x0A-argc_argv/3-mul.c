@@ -2,9 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - A program that prints the
- * number of arguements
- * you passed into it
+ * main -multiplies two numbers.
  * @argc: An argument counter
  * @argv: An argument values
  * Return: Always 0 (success)
@@ -12,7 +10,13 @@
 
 int main(int argc, char *argv[])
 {
-    printf("%d\n", argc-1);
-    (void)argv;
+    int mult;
+    if (argc != 3)
+    {
+        printf("error");
+        return (1);
+    }
+    mult = atoi(argv[1]) * atoi(argv[2]);
+    printf("%d\n", mult);
     return (0);
 }
