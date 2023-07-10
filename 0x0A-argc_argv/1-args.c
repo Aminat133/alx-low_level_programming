@@ -8,7 +8,7 @@
 * return: Always 0 (success)
 **/
 
-int main(ine argc, char *argv[])
+int main(ine argc, char **argv[])
 {
 printf("%d\n", argc-1);
 return 0;
