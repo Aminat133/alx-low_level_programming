@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include <stdlib.h>
 
 /*
 * main - A program that prints the number of arguements you passed into it
