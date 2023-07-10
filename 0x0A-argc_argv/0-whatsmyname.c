@@ -1,11 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>
 /* 
 * main- prints the name of the command
 */
 
 int main(int argc, char *argv[])
 {
-printf("./%s\n", *argv);
-exit(EXIT_SUCCESS);
+printf("./%s\n", *argv++);
+return 0;
 }
