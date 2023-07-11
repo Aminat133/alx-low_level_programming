@@ -11,24 +11,24 @@
 
 int main(int argc, char *argv[])
 {
-    int sum = 0; int i = 1;
-    if (argc == 1)
-    {
-        printf("%d\n", sum);
-    }
-    else
-    {
-        while (i < argc)
-        {
-            if (!(atoi(argv[i])))
-            {
-                printf("Error\n");
-                return (1);
-            }
-            sum += atoi(argv[i++]);
-        }
-        printf("%d\n", sum);
-        /*printf("%d\n", atoi(argv[i]));*/
-    } 
-    return (0);
+	int sum = 0; int i = 1;
+	if (argc == 1)
+	{
+		printf("%d\n", sum);
+	}
+	else
+	{
+		while (i < argc)
+		{
+			if (!(atoi(argv[i])))
+			{
+				printf("Error\n");
+				return (1);
+			}
+			sum += atoi(argv[i++]);
+		}
+		printf("%d\n", sum);
+		/*printf("%d\n", atoi(argv[i]));*/
+	} 
+	return (0);
 }
