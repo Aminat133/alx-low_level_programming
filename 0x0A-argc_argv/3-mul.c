@@ -10,6 +10,7 @@
 
 int main(int argc, char *argv[])
 {
+
     int mult;
     if (argc != 3)
 	{
