@@ -20,9 +20,9 @@ char *create_array(unsigned int size, char c)
 	a = malloc(size * sizeof(char));
 	if (a == NULL)
 		return (NULL);
-	while (i++ < size)
+	while (i < size)
 	{
-		a[i] = c;
+		a[i++] = c;
 	}
 	return (a);
 	free(a);
