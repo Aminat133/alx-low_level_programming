@@ -11,8 +11,8 @@
 
 int main(int argc, char *argv[])
 {
-
 	int sum = 0, i = 1;
+	
 	if (argc == 1)
 	{
 		printf("%d\n", sum);
