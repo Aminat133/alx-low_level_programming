@@ -32,6 +32,7 @@ ar -t libmy.a
 ranlib libmy.a
 
 creat a main.c file
+gcc -std=gnu89 main.c -L. -lmy -o quote
 
 gcc main.c -L. -lmy -o quote
 
