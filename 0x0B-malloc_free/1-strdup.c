@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * acreate_array - returns a pointer to a newly allocated space in memory,
+ * _strdup - returns a pointer to a newly allocated space in memory,
  * which contains a copy of the string given as a parameter.
  * @str: string given as a parameter
  * Return: a pointer to the array on success, NULL on failure
@@ -13,6 +13,8 @@ char *_strdup(char *str)
 	char *a, *start;
 	int len = 0, i = 0;
 
+	if (*str == NULL)
+		return (NULL);
 	start = str;
 	while (*str++)
 		len++;
