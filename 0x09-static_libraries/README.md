@@ -4,7 +4,7 @@ This repository contains more projects introducing the use, purpose of static li
 Creating a static library libmy.a
 -Wall -pedantic -Werror -Wextra -c \*.c
 
-ar -rc libmy.a \*.o
+ar -rc libmy.a *.o
 
 ar -t libmy.a
 
@@ -29,7 +29,7 @@ ar -t libmy.a
 9-strcpy.o
 \_putchar.o
 
-ranlib my.a
+ranlib libmy.a
 
 creat a main.c file
 
