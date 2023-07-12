@@ -24,7 +24,7 @@ ar -t libmy.a
 3-strspn.o
 4-isalpha.o
 4-strpbrk.o
-5-strstr.o6-abs.o
+5-strstr.c
 6-abs.o
 9-strcpy.o
 \_putchar.o
