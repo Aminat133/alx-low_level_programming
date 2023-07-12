@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * argstostr - splits a string into words.
+ * strtow - splits a string into words.
  * @str: string to split
  * Return: a pointer to the array on success, NULL on failure
  */
@@ -92,7 +92,7 @@ for (i = 0; i < len; i++)
 		}
 	}
 	new_arr[k]= (char *)malloc(sizeof(char ) * 1);
-	
+
 	for (i = 0; i < len; i++)
 	{
 		if (str[i] == " ")
@@ -101,7 +101,7 @@ for (i = 0; i < len; i++)
 			a++;
 			b = 0;
 		}
-		else 
+		else
 		{
 			new_arr[a][b++] = str[i];
 		}
