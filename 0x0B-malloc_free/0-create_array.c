@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * acreate_array - a function that creates an array of
+ * create_array - a function that creates an array of
  * chars, and initializes it with a specific char.
  * @size: size of array
  * @c: initial char
- * 
+ *
  * Return: a pointer to the array on success, NULL on failure
 */
 
