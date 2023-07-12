@@ -21,17 +21,14 @@ int main(int argc, char *argv[])
 	{
 		while (i < argc)
 		{
-			if (!(atoi(argv[i++])))
+			if (!(atoi(argv[i])))
+			if (!(isdigit(argv[argc][i])))
 			{
 				printf("Error\n");
 				return (1);
 			}
 			if (atoi(argv[i]) < 0)
-			{
-				printf("Error\n");
 				continue;
-			}
-
 			sum += atoi(argv[i++]);
 		}
 		printf("%d\n", sum);
