@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * 0-malloc_checked.c - a function that allocates memory using malloc.
+ * malloc_checked - a function that allocates memory using malloc.
  * @b: size to allocate
  * return: pointer to array
  */
