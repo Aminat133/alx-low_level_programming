@@ -11,7 +11,7 @@
  * @src: string to be added.
  * @n: max number of chars that can be added.
  *
- * return: a pointer to the resulting string dest.
+ * Return: a pointer to the resulting string dest.
  */
 char *_strncat(char *dest, char *src, int n)
 {
