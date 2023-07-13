@@ -11,6 +11,7 @@
 int main(int argc, char *argv[])
 {
 	int num1, num2, result;
+
 	if (argc != 3)
 	{
 		printf("Error\n");
@@ -23,10 +24,10 @@ int main(int argc, char *argv[])
 	printf("%d\n", result);
 	return (0);
 	/*
-	if (!(atoi(argv[1])))
-	{
-		printf("Error\n");
-		exit(98);
-	}
+	*if (!(atoi(argv[1])))
+	*{
+	*	printf("Error\n");
+	*	exit(98);
+	*}
 	*/
 }
