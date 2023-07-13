@@ -9,15 +9,16 @@
  * Return: pointer to array
  */
 
-char *string_nconcat(char *s1, char *s2, unsigned int n) {
+char *string_nconcat(char *s1, char *s2, unsigned int n)
+{
 	char *new_str, *start;
-	unsigned int len1= 0, lens2 = 0, i = 0, j = 0;
+	unsigned int len1 = 0, lens2 = 0, i = 0, j = 0;
 
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	
+
 	start = s1;
 	while (*s1++)
 		len1++;
@@ -34,13 +35,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n) {
 
 	new_str = malloc(sizeof(char) * (len1 + n + 1));
 	if (new_str == NULL)
-		 return(NULL);
+		return (NULL);
 
 	for (; i < (len1 + n); i++)
 	{
 		if (i < len1)
 			new_str[i] = s1[i];
-		else 
+		else
 			new_str[i] = s2[j++];
 	}
 	new_str[i] = '\0';
