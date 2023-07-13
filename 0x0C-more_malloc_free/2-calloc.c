@@ -8,8 +8,8 @@
  * Return: pointer to array
  */
 
- void *_calloc(unsigned int nmemb, unsigned int size)
- {
+void *_calloc(unsigned int nmemb, unsigned int size)
+{
 	int *call;
 	unsigned int i;
 
@@ -24,4 +24,4 @@
 		call[i] = 0;
 	return (call);
 	free(call);
- }
+}
