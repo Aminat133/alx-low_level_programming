@@ -20,17 +20,19 @@ int main(int argc, char *argv[])
 
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[2]);
+
 	while (i < argc)
+	{
+		for (j = 0; argv[i][j]; j++)
 		{
-			for (j = 0; argv[i][j]; j++)
+			if (argv[i][j] < '0' || argv[i][j] > '9')
 			{
-				if (argv[i][j] < '0' || argv[i][j] > '9')
-				{
-					printf("Error\n");
-					return (1);
-				}
+				printf("Error\n");
+				exit(98);
 			}
 		}
+	}
+
 	result = num1 * num2;
 	printf("%d\n", result);
 	return (0);
