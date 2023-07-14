@@ -10,7 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int num1, num2, result, i = 0, j = 0;
+	int num1, num2, result, i = 1, j = 0;
 
 	if (argc != 3)
 	{
@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[2]);
 
-	while (i < argc)
+	while (i <= argc)
 	{
 		for (j = 0; argv[i][j]; j++)
 		{
@@ -31,6 +31,7 @@ int main(int argc, char *argv[])
 				exit(98);
 			}
 		}
+		i++;
 	}
 
 	result = num1 * num2;
