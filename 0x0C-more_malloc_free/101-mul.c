@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[2]);
 
-	while (i <= argc)
+	while (i < argc)
 	{
 		for (j = 0; argv[i][j]; j++)
 		{
