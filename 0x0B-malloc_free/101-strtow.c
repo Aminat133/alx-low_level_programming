@@ -33,7 +33,7 @@ char **strtow(char *str)
 			j = i;
 			while ((str[j] != ' ' || str[j] != '\t') && str[j] != '\0')
 				j++, len++;
-			array[k] = malloc((len + 2) * sizeof(char));
+			array[k] = malloc((len + 1) * sizeof(char));
 			if (array[k] == NULL)
 			{
 				for (k = k - 1; k >= 0; k++)
@@ -43,7 +43,6 @@ char **strtow(char *str)
 			}
 			for (m = 0; m < len; m++, i++)
 				array[k][m] = str[i];
-			array[k][m++] = '\n';
 			array[k++][m] = '\0';
 		}
 	}
