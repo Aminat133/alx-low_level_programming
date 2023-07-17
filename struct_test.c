@@ -8,10 +8,10 @@ struct user
 };
 struct user *user(char *name, char* email,int age)
 {
-  struct user *user;
-  user = malloc(sieof(struct user));
+  struct user *new_user;
+  user = malloc(sizeof(struct user));
   if (user == NULL)
-    Return (NULL);
+    return (NULL);
   user->name = name;
   user->email = email;
   user->age = age;
