@@ -7,5 +7,5 @@
 int main(void)
 {
   printf("%S\n", __FILE__);
-Return (0);
+return (0);
 )
