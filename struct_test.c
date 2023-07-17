@@ -6,10 +6,10 @@ struct user
   char *email;
   int age;
 };
-struct user *user(char *name, char* email,int age)
+struct User *user(char *name, char* email,int age)
 {
-  struct user *new_user;
-  user = malloc(sizeof(struct user));
+  struct User *new_user;
+  user = malloc(sizeof(struct User));
   if (user == NULL)
     return (NULL);
   user->name = name;
@@ -20,7 +20,7 @@ struct user *user(char *name, char* email,int age)
 
 int main(void)
 {
-  struct user *user;
+  struct User *user;
   user = new_user("foo", "foo@foo.bar", 98);
   if (user == NULL)
     return (1);
