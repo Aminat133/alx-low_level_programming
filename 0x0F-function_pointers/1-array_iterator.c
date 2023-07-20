@@ -15,7 +15,7 @@
  {
 	unsigned int i;
 
-		if (action == NULL || array == NULL || size ==NULL)
+		if (action == NULL || array == NULL)
 		return;
 
 	for (i= 0; i < size; i++)
