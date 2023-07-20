@@ -15,6 +15,9 @@
  {
 	unsigned int i;
 
+		if (action == NULL || array == NULL || size ==NULL)
+		return;
+
 	for (i= 0; i < size; i++)
 	{
 		action(array[i]);
