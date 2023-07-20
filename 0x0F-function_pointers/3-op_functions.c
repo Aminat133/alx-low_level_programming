@@ -7,7 +7,7 @@
  *
  * @a: integer
  * @b: integer
- * 
+ *
  * Return: The result to sum a + b.
  */
 
@@ -23,7 +23,7 @@ int op_add(int a, int b)
  *
  * @a: integer
  * @b: integer
- * 
+ *
  * Return: The result to subtraction a - b.
  */
 
@@ -39,7 +39,7 @@ int op_sub(int a, int b)
  *
  * @a: integer
  * @b: integer
- * 
+ *
  * Return: The result to multiplication a * b.
  */
 
@@ -55,12 +55,13 @@ int op_mul(int a, int b)
  *
  * @a: integer
  * @b: integer
- * 
+ *
  * Return: The result to division a / b.
  */
 
 int op_div(int a, int b)
-{	if (b == 0)
+{	
+	if (b == 0)
 	{
 		printf("Error\n");
 		exit(100);
@@ -76,7 +77,7 @@ int op_div(int a, int b)
  *
  * @a: integer
  * @b: integer
- * 
+ *
  * Return: The result to mod of a and b.
  */
 
