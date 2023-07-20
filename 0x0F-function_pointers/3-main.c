@@ -4,7 +4,7 @@
 
 /**
  *main - performs simple operations.
- * 
+ *
  * @argc: argument count
  * @argv: argument array
  * Return: int, result of operation
@@ -23,8 +23,8 @@ int main(int argc, char *argv[])
 	func = get_op_func(argv[2]);
 	if (func == NULL)
 	{
-			printf("Error2\n");
-			exit(99);
+		printf("Error2\n");
+		exit(99);
 	}
 	printf("%i", func(atoi(argv[1]), atoi(argv[3])));
 	return (0);
