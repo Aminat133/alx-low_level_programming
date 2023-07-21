@@ -3,9 +3,20 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all - returns the sum of all its parameters
- * @n: - no. of other arguments, first and last required var.
- * Return: int (sum of all its parameters)
+ * print_numbers - prints numbers, followed by a new line.
+ * @separator: string to be printed between numbers,last required var.
+ * @n: - number of integers passed to the function, first
+ * Return: nothing
  */
 
  void print_numbers(const char *separator, const unsigned int n, ...)
+ {
+	va_list ap;
+	va_start(ap, n);
+	int i =0;
+	
+	for (; i < n; i++)
+	{
+		printf("%d%s ", *separator, va_arg(ap, int))
+	}
+ }
