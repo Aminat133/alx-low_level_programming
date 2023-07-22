@@ -15,13 +15,11 @@ void print_all(const char * const format, ...)
 	char *str;
 
 	va_start(ap, format);
-
 	while (format ==  NULL)
 	{
 		printf("\n");
 		return;
 	}
-
 	while (format[i])
 	{
 		switch (format[i])
@@ -53,4 +51,3 @@ void print_all(const char * const format, ...)
 	va_end(ap);
 	printf("\n");
 }
-
