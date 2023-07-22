@@ -19,7 +19,7 @@ void print_all(const char * const format, ...)
 	while (format ==  NULL)
 	{
 		printf("\n");
-		Return;
+		return;
 	}
 
 	while (format[i])
