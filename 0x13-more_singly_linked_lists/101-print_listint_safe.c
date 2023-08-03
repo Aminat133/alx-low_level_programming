@@ -7,7 +7,7 @@
 
 
 /**
- * looped_listint_len - counts no of unique nodes in a  list
+ * looped_list_len - counts no of unique nodes in a  list
  * @head: A pointer to listint_t structure
  * Return: 0 onnot looped list, no of unique nodes on success
  */
