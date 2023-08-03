@@ -1,16 +1,12 @@
 #include "lists.h"
 #include <stdio.h>
 
-
-
-
-
-
 /**
  * looped_list_len - counts no of unique nodes in a  list
  * @head: A pointer to listint_t structure
  * Return: 0 onnot looped list, no of unique nodes on success
  */
+
 size_t looped_list_len(const listint_t *head)
 {
 	const listint_t *tortoise, *hare;
@@ -27,7 +23,7 @@ size_t looped_list_len(const listint_t *head)
 		if (tortoise == hare)
 		{
 			tortoise = head;
-			while (tortoise != hare)   
+			while (tortoise != hare)
 			{
 				nodes++;
 				tortoise = tortoise->next;
@@ -56,11 +52,12 @@ size_t looped_list_len(const listint_t *head)
  * @head: A pointer to listint_t structure
  * Return: The number of nodes. Exits with 98 on failure
  */
+
 size_t print_listint_safe(const listint_t *head)
 {
 	size_t nodes, i = 1;
 
-	nodes = looped_list_len(head);
+	nodes = looped_list_len (head);
 
 	if (nodes == 0)
 	{
