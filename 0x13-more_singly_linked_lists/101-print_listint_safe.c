@@ -27,7 +27,7 @@ size_t looped_list_len(const listint_t *head)
 		if (tortoise == hare)
 		{
 			tortoise = head;
-			while (tortoise != hare)
+			while (tortoise != hare)   
 			{
 				nodes++;
 				tortoise = tortoise->next;
