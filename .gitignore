@@ -1,2 +1,10 @@
 
 *.exe
+0x08-recursion/6-is_prime_number.c
+0x08-recursion/5-sqrt_recursion.c
+0x08-recursion/1-print_rev_recursion.c
+0x08-recursion/100-is_palindrome.c
+0x08-recursion/101-wildcmp.c
+0x08-recursion/2-strlen_recursion.c
+0x08-recursion/3-factorial.c
+0x08-recursion/4-pow_recursion.c
