@@ -40,8 +40,9 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 
+
 /**
- *new_dog - a function that creates a new dog.
+ * new_dog - a function that creates a new dog.
  * @name: name
  * @age: age
  * @owner: owner
