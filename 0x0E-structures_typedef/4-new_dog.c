@@ -46,6 +46,7 @@ char *_strcpy(char *dest, char *src)
  * @name: name
  * @age: age
  * @owner: owner
+ *
  * Return: The new struct dog.
  */
 
