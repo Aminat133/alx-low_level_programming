@@ -47,8 +47,8 @@ char *_strcpy(char *dest, char *src)
  * @owner: owner
  */
 
- dog_t *new_dog(char *name, float age, char *owner)
- {
+dog_t *new_dog(char *name, float age, char *owner)
+{
 	dog_t (*p);
 
 	if (name == NULL || age < 0 || owner == NULL)
@@ -79,4 +79,4 @@ char *_strcpy(char *dest, char *src)
 	p->owner = _strcpy(p->owner, owner);
 
 	return (p);
- }
+}
