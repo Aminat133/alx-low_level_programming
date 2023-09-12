@@ -66,7 +66,7 @@ char *_strcpy(char *dest, char *src)
 
 	p->age = age;
 
-	p->owner = malloc(sizeof(char) * _strlength(owner))
+	p->owner = malloc(sizeof(char) * _strlength(owner));
 	if (p->owner == NULL)
 	{
 		free(p->name);
@@ -76,4 +76,6 @@ char *_strcpy(char *dest, char *src)
 
 	p->name = _strcpy(p->name, name);
 	p->owner = _strcpy(p->owner, owner);
+
+	return (p);
  }
