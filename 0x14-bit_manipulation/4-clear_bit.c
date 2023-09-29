@@ -14,7 +14,7 @@ int clear_bit(unsigned long int *n, unsigned int index)
 	maxi = ~(maxi << index);
 	if (maxi == 0x00)
 		return (-1);
-  
+
 	*n &= maxi;
 	return (1);
 }
