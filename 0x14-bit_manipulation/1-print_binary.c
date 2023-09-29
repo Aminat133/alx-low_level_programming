@@ -16,18 +16,18 @@ void print_binary(unsigned long int n)
 		_putchar('0');
 		return;
 	}
-  
+
 	while (maxi)
 	{
 		if (flag == 1 && (n & maxi) == 0)
 			_putchar('0');
-      
+
 		else if ((n & maxi) != 0)
 		{
 			_putchar('1');
 			flag = 1;
 		}
-    
+
 		maxi >>= 1;
 	}
 }
