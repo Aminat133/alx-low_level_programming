@@ -10,19 +10,6 @@
 void print_binary(unsigned long int n)
 {
 	unsigned int flag = 0, maxi = 32768; /* 1000 0000 0000 0000 */
-	unsigned int m = n, count = 0;
-
-	if (n > maxi)
-	{
-		while (m/2)
-		{
-			m/2;
-			count++
-		}
-		count++;
-	
-		maxi = pow(10, count);
-	}
 
 	if (n == 0)
 	{
@@ -30,6 +17,9 @@ void print_binary(unsigned long int n)
 		return;
 	}
 
+	while (n > maxi)
+		maxi*2;
+	
 	while (maxi)
 	{
 		if (flag == 1 && (n & maxi) == 0)
