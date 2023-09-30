@@ -16,9 +16,6 @@ void print_binary(unsigned long int n)
 		_putchar('0');
 		return;
 	}
-
-	while (n > maxi)
-		maxi*2;
 	
 	while (maxi)
 	{
