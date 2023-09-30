@@ -12,14 +12,17 @@ void print_binary(unsigned long int n)
 	unsigned int flag = 0, maxi = 32768; /* 1000 0000 0000 0000 */
 	unsigned int m = n, count = 0;
 
-	while (m/2)
+	if (n > maxi)
 	{
-		m/2;
-		count++
+		while (m/2)
+		{
+			m/2;
+			count++
+		}
+		count++;
+	
+		maxi = pow(10, count);
 	}
-	count++;
-
-	maxi = pow(10, count);
 
 	if (n == 0)
 	{
