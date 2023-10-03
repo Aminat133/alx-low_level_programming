@@ -4,8 +4,6 @@
 #include <fcntl.h>
 #include <elf.h>
 
-
-
 /**
  * print_elf_header_info - prints the information in the header.
  * @header: header pointer
