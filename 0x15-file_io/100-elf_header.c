@@ -5,14 +5,13 @@
 #include <elf.h>
 
 
+
 /**
- * main - The entry point for the program to get the 
- * header of the ELF file
- * @argc: The number of arguments
- * @argv: The pointer to an array of arguments
+ * mainprint_elf_header_info - The entry point for the 
+ * program to get the header of the ELF file
+ * @header: header pointer
  * Return: 1 on success, error code on failure
  */
-
 void print_elf_header_info(Elf64_Ehdr *header) {
     printf("Magic: ");
     for (int i = 0; i < EI_NIDENT; i++) {
@@ -34,6 +33,14 @@ void print_elf_header_info(Elf64_Ehdr *header) {
 
     printf("Entry point address: 0x%lx\n", header->e_entry);
 }
+
+/**
+ * main - The entry point for the program to get the 
+ * header of the ELF file
+ * @argc: The number of arguments
+ * @argv: The pointer to an array of arguments
+ * Return: 1 on success, error code on failure
+ */
 
 int main(int argc, char *argv[]) {
     if (argc != 2) {
