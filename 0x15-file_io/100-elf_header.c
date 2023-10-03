@@ -10,11 +10,12 @@
  * Return: nothing.
  */
 
-void print_elf_header_info(Elf64_Ehdr *header) {
+void print_elf_header_info(Elf64_Ehdr *header) 
+{
 	printf("Magic: ");
-	for (int i = 0; i < EI_NIDENT; i++) {
+	for (int i = 0; i < EI_NIDENT; i++)
 		printf("%02x ", header->e_ident[i]);
-	}
+
 	printf("\n");
 
 	printf("Class: %d-bit\n", (header->e_ident[EI_CLASS] == ELFCLASS32) ? 32 : 64);
