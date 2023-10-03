@@ -45,8 +45,8 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	fdw = write(STDOUT_FILENO, temp, fdr);
 	free(temp);
 	close(fdo);
-  if (fdw < 0)
+	if (fdw < 0)
 		return (0);
-  
+
 	return ((ssize_t)fdw);
 }
