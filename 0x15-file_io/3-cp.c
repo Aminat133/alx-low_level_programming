@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 	char buffer[1024];
 	int byts_read = 0, _EOF = 1, from_ = -1, to_ = -1, err = 0;
 
-  
+
 	if (argc != 3)
 	{
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
@@ -87,7 +87,7 @@ int main(int argc, char *argv[])
 /**
  * _close - this is a function that closes a file and
  * prints error when closed file
- * @description: Description error for closed file
+ * @desc: Description error for closed file
  * Return: 1 on success, -1 on failure
  */
 
