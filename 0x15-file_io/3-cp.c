@@ -10,6 +10,25 @@
 #include <fcntl.h>
 #include <stdio.h>
 
+/**
+ * _close - this is a function that closes a file and
+ * prints error when closed file
+ * @desc: Description error for closed file
+ * Return: 1 on success, -1 on failure
+ */
+
+int _close(int desc)
+{
+	int err;
+
+	err = close(desc);
+	if (err < 0)
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", desc);
+	return (err);
+}
+
+
+
 
 int safe_close(int);
 /**
@@ -79,24 +98,4 @@ int main(int argc, char *argv[])
 	if (err < 0)
 		exit(100);
 	return (0);
-}
-
-
-
-
-/**
- * _close - this is a function that closes a file and
- * prints error when closed file
- * @desc: Description error for closed file
- * Return: 1 on success, -1 on failure
- */
-
-int _close(int desc)
-{
-	int err;
-
-	err = close(desc);
-	if (err < 0)
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", desc);
-	return (err);
 }
