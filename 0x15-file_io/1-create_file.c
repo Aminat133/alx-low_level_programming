@@ -10,8 +10,8 @@
 /**
  * create_file - This is a function that creates a file
  * @filename: The filename to create
- * @text_content: A NULL terminated string to write to the file
- * Return: 1 on success, -1 if file can not be created, neither written,
+ * @text_content: A NULL-terminated string to write to the file
+ * Return: 1 on success, -1 if the file can not be created, either written,
  * open nor write fails.
  */
 
@@ -33,6 +33,6 @@ int create_file(const char *filename, char *text_content)
 	close(fo);
 	if (fw < 0)
 		return (-1);
-  
+
 	return (1);
 }
