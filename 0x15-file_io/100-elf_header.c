@@ -10,7 +10,7 @@
  * mainprint_elf_header_info - The entry point for the 
  * program to get the header of the ELF file
  * @header: header pointer
- * Return: 1 on success, error code on failure
+ * Return: nothing.
  */
 void print_elf_header_info(Elf64_Ehdr *header) {
     printf("Magic: ");
