@@ -70,7 +70,7 @@ int main(int argc, char *argv[])
 		}
 	}
 	err = _close(to_);
-	if (error < 0)
+	if (err < 0)
 	{
 		_close(from_);
 		exit(100);
