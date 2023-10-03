@@ -7,8 +7,7 @@
 
 
 /**
- * print_elf_header_info - The entry point for the 
- * program to get the header of the ELF file
+ * print_elf_header_info - prints the information in the header.
  * @header: header pointer
  * Return: nothing.
  */
